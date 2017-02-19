@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_marginBottom="20dp"
+    android:clickable="false"
+    android:id="@+id/r_layout">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+
+        android:baselineAlignBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="false"
+        android:background="@drawable/layout_bg"
+        android:cropToPadding="true"
+        android:padding="5dp"
+        android:outlineProvider="paddedBounds" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="false"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView123"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:autoLink="all"
+            android:autoText="false"
+            android:text="After the successful completion of the inaugural NMHMUN, this year NMIMS Hyderabad goes a step further and opens registrations for students from other colleges as well. NMHMUN ’15 will see the simulation of three councils: the UN General Assembly- DISEC, The Doomsday Meet and the Board Meeting of Enron Corporation.  Delegates must research their allotted countries/personalities in great detail, understanding their policies and thus the considerations and compulsions that determine state behavior on the international stage.  They must also research their committee agenda, fully exploring the intricacies of the issue at hand, including the background, history, its treatment in the real world, resolutions passed on it, major countries/personalities involved, causes, consequences, past action and more. Finally, delegates must research and propose innovative and feasible solutions to the problem, within the framework of the organ or agency they are a part of. The entire debate is carried out through formal rules of procedure that require students to truly step into the shoes of delegates.  Information pertaining to the agendas, delegate handbook would be uploaded in due time. - See more at: http://nmhmun.weebly.com/about-nmhmun-15.html#sthash.7MN87Gbk.dpuf"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/black"
+            android:typeface="serif"
+            android:elevation="10dp"
+            android:textAlignment="center" />
+    </ScrollView>
+
+</LinearLayout>

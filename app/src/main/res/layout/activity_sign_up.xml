@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:gravity="center_horizontal"
+
+                android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="false">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:paddingTop="@dimen/activity_vertical_margin"
+                      android:gravity="center_horizontal"
+                      android:weightSum="1"
+            android:focusable="false"
+            style="@style/Base.TextAppearance.AppCompat.Display1">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:hint="Name"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+
+                android:textColor="#4169e1" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:hint="e-mail"
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password"
+                android:hint="Password"
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/confirmPassword"
+                android:hint="Confirm password"
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/contact"
+                android:hint="Contact"
+                android:maxLength="10"
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:hint="Address"
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/cls"
+                android:hint="Class"
+                android:maxLength="2"
+                android:gravity="center_horizontal"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/rno"
+                android:hint="Roll number"
+                android:gravity="center_horizontal"
+                android:elevation="10dp"
+                android:textColorHint="#9E9E9E"
+                android:textColor="#4169e1" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms And Condition"
+                android:id="@+id/terms"
+                android:layout_weight="0.30"
+                android:checked="false"
+                android:textColor="#fff44336"
+                android:textColorLink="#ff3835ff"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"/>
+
+            <ProgressBar
+                style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/pBarOfWait"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.32"
+                android:visibility="invisible"
+                android:indeterminate="false" />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/button2"
+                android:onClick="register"
+                android:background="@drawable/boundary"
+                android:textSize="20dp"
+                android:layout_marginBottom="80dp"
+
+                android:layout_gravity="center_horizontal"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="#4169e1" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

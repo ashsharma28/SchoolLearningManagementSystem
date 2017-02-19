@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashishsharma.temporayappname" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".otp_"
+            android:label="@string/title_activity_otp_" >
+        </activity>
+        <activity
+            android:name=".GalleryFragment"
+            android:label="Gallery" >
+        </activity>
+        <activity
+            android:name=".sign_up"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".student_dashboard"
+            android:label="@string/title_activity_student_dashboard" >
+        </activity>
+        <activity
+            android:name=".teacher_dashboard"
+            android:label="@string/title_activity_teacher_dashboard" >
+        </activity>
+        <activity
+            android:name=".EventsFragment"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name=".news"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".upload"
+            android:label="@string/title_activity_upload" >
+        </activity>
+        <activity
+            android:name=".Front"
+            android:label="@string/title_activity_front" >
+        </activity>
+        <activity
+            android:name=".notification"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name=".stud_attendance"
+            android:label="@string/title_activity_stud_attendance" >
+        </activity>
+        <activity
+            android:name=".Notes"
+            android:label="@string/title_activity_notes" >
+        </activity>
+        <activity
+            android:name=".Results"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name=".uploaderBox"
+            android:label="@string/title_activity_uploader_box" >
+        </activity>
+        <activity
+            android:name=".PhotoViewer"
+            android:label="@string/title_activity_photo_viewer" >
+        </activity>
+        <activity
+            android:name=".fullscreenPhoto"
+            android:label="@string/title_activity_fullscreen_photo" >
+        </activity>
+        <activity
+            android:name=".EventViewer"
+            android:label="@string/title_activity_event_viewer" >
+        </activity>
+        <activity
+            android:name=".NewsViewer"
+            android:label="@string/title_activity_news_viewer" >
+        </activity>
+        <activity
+            android:name=".NotesViewer"
+            android:label="@string/title_activity_notes_viewer" >
+        </activity>
+        <activity
+            android:name=".UploadActivity"
+            android:label="@string/title_activity_upload" >
+        </activity>
+        <activity
+            android:name=".OnboardingActivity"
+            android:label="@string/title_activity_onboarding" >
+        </activity>
+    </application>
+
+</manifest>

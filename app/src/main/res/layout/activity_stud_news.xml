@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.sony.test.news">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textSize="25dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#4169e1" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news1"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button1"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news2"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news3"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news4"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button4"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news5"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button5"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news6"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button6"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news7"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button7"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news8"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button8"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news9"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button9"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="news10"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/button10"
+                android:layout_weight="1"
+                android:background="@drawable/boundary"
+                android:textColor="#4169e1" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
